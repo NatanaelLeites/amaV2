@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- normalize -->
+    <link rel="stylesheet" href="../css/normalize.css">
+    <!-- Toastify CSS -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <!-- box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- estilos personalizados -->
+    <link rel="stylesheet" href="../css/estilos.css">
+    <title>AMA</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="politica-de-envio">
+            <a class="link-politica-envio" href="#">Antes de realizar tu compra conoce la política de envio</a>
+        </div>
+        <header class="header">
+            <i id="nav-btn" class='bx bx-menu'></i>
+            <nav id="nav" class="nav">
+                <div class="nav-links">
+                    <a class="nav-item" href="./programa.html">Inicio</a>
+                    <a class="nav-item" href="#nosotros">Sobre Nosotros</a>
+                    <a class="nav-item" href="#ritual">El Rincón del Ritual</a>
+                    <a class="nav-item" href="#">Catálogo</a>
+                    <a class="nav-item" href="#">Blog</a>
+                    <a class="nav-item" href="#contacto">Contacto</a>
+                </div>
+                <a class="link-instagram" href="https://www.instagram.com/ama.uy/?igsh=MXhoMGFzNzhjaTZyeA%3D%3D#"
+                    target="_blank" rel="noopener noreferrer">
+                    <i class='bx bxl-instagram'></i>
+                </a>
+                <a id="btn-whats" target="_blank" href="https://wa.me/59892668664?text=Hola%20soy%20cliente%20AMA%20"
+                    class="link-instagram"><i class='bx bxl-whatsapp'></i></a>
+            </nav>
+            <a class="link-inicio" href="./programa.html">
+                <img src="../img/logoAma.webp" alt="">
+            </a>
+            <i class='bx bx-shopping-bag'></i>
+        </header>
+        <div class="hero-background-mobile">
+            <div class="background-image-mobile active" id="img1"></div>
+            <div class="background-image-mobile" id="img2"></div>
+            <h2 class="titular-hero">Bienvenidos</h2>
+            <a href="./productos.html">
+                <button class="btn-coleccion">Colección</button>
+            </a>
+
+        </div>
+        <div id="nosotros" class="nosotros">
+            <h3>Nosotros</h3>
+            <p>Somos un pequeño emprendimiento creado con mucho amor, donde cada accesorio con piedras naturales está
+                pensado para acompañarte con su belleza y energía. Gracias por ser parte de este sueño.</p>
+            <a href="./nosotros.html">
+                <button>Sobre Nosotros</button>
+            </a>
+        </div>
+        <div id="ritual" class="rincon">
+            <img src="../img/rincon-img.webp" alt="rincon del ritual img">
+            <div class="rincon-info">
+                <h3>El Rincon del Ritual</h3>
+                <p>El Rincón del Ritual es un espacio dedicado a la meditación y la conexión con el presente. A través
+                    de un
+                    pequeño altar con los cuatro elementos esenciales —agua, tierra, aire (incienso) y fuego (vela)—
+                    podrás
+                    crear un lugar consciente para detenerte, respirar y encontrar paz interior. <br><br>
+                    En nuestra tienda encontrarás todo lo que necesitás para armar tu propio ritual de forma simple y
+                    significativa. Te acompañamos a crear ese espacio sagrado donde el aquí y ahora se vuelve parte de
+                    tu
+                    día a día.</p>
+                <a href="./ritual.html">
+                    <button>Conoce más</button>
+                </a>
+            </div>
+        </div>
+        <div id="contacto" class="contacto">
+            <h3>Contacto</h3>
+            <p>Si tenes alguna duda antes de realizar tu compra, no dudes en consultarme.</p>
+            <form id="myForm" onsubmit="submitForm()" action="https://formsubmit.co/amauy.store@gmail.com"
+                method="POST">
+                <input type="hidden" name="_next" value="https://ama-uy.myshopify.com/">
+                <div class="form-group">
+                    <div class="form-row">
+                        <div class="col">
+                            <input type="text" name="name" class="form-control" placeholder="Nombre completo" required>
+                        </div>
+                        <div class="col">
+                            <input type="email" name="email" class="form-control" placeholder="e-mail" required>
+                        </div>
+                        <div class="col">
+                            <input type="text" name="telefono" class="form-control" placeholder="numero de celular"
+                                required>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <textarea placeholder="Dejanos un mensaje" class="form-control" name="message" rows="10"
+                        required></textarea>
+                </div>
+                <button type="submit" class="btn-enviar">Enviar</button>
+            </form>
+        </div>
+        <hr>
+        <footer class="footer">
+            <div class="footer-links">
+                <a class="link-footer" href="https://www.instagram.com/ama.uy/?igsh=MXhoMGFzNzhjaTZyeA%3D%3D#"
+                    target="_blank" rel="noopener noreferrer">
+                    <i class='bx bxl-instagram link-footer'></i>
+                </a>
+                <a id="btn-comprar" target="_blank"
+                    href="https://wa.me/59898712712?text=Hola%20soy%20cliente%20AMA%20"><i
+                        class='bx bxl-whatsapp link-footer'></i></a>
+            </div>
+
+            <div class="footer-info">
+                <a href="./politicaEnvio.html">Política de envío
+                </a>
+                <a href="./politicaPrivacidad.html">Política de privacidad
+                </a>
+                <a href="./politicaReembolso.html">Política de reembolso</a>
+                <p>© 2025, AMA.UY</p>
+            </div>
+        </footer>
+    </div>
+
+    <script type="module" src="../js/menu.js"></script>
+    <script type="module" src="../js/hero.js"></script>
+    <script type="module" src="../js/email.js"></script>
+
+</body>
