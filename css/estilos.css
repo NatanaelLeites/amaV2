@@ -132,6 +132,9 @@ ul {
   font-weight: 700;
   letter-spacing: -0.5px;
 }
+.header__logo a img {
+  height: 80px;
+}
 .header__nav {
   display: none;
 }
