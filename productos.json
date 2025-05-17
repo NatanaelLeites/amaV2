@@ -1,0 +1,192 @@
+[
+  {
+    "id": 1,
+    "codigo": "CAR002",
+    "nombre": "Caravanas Aro Turquesa",
+    "precio": 280,
+    "accesorio": "caravanas",
+    "piedra": "turquesa",
+    "foto": "https://ama-uy.myshopify.com/cdn/shop/files/rn-image_picker_lib_temp_3b7afc49-932f-406e-a09f-f152f264273b.jpg?v=1746425592&width=360"
+  },
+  {
+    "id": 2,
+    "codigo": "CAR003",
+    "nombre": "Caravanas con Cuarzo blanco",
+    "precio": 280,
+    "accesorio": "caravanas",
+    "piedra": "cuarzo",
+    "foto": "https://ama-uy.myshopify.com/cdn/shop/files/rn-image_picker_lib_temp_6c62d7d0-c70f-4902-950d-02fe2dde084f.jpg?v=1746423013&width=360"
+  },
+  {
+    "id": 3,
+    "codigo": "CAR001",
+    "nombre": "Caravanas de escallas de amatista",
+    "precio": 260,
+    "accesorio": "caravanas",
+    "piedra": "amatista",
+    "foto": "https://ama-uy.myshopify.com/cdn/shop/files/rn-image_picker_lib_temp_d47ead0a-5d8e-4651-a8ac-28de8ea7300f.jpg?v=1746145258&width=533"
+  },
+  {
+    "id": 4,
+    "codigo": "COL001",
+    "nombre": "Collar de amatista",
+    "precio": 420,
+    "accesorio": "collares",
+    "piedra": "amatista",
+    "foto": "https://ama-uy.myshopify.com/cdn/shop/files/DSC2234.jpg?v=1745885273&width=360"
+  },
+  {
+    "id": 5,
+    "codigo": "COL002",
+    "nombre": "Collar citrino",
+    "precio": 380,
+    "accesorio": "collares",
+    "piedra": "citrino",
+    "foto": "https://ama-uy.myshopify.com/cdn/shop/files/rn-image_picker_lib_temp_1634ff1a-46b4-4d0d-8b04-e3c99b34ee4b.jpg?v=1746145259&width=360"
+  },
+  {
+    "id": 6,
+    "codigo": "COL007",
+    "nombre": "Collar cuarzo cherry",
+    "precio": 480,
+    "accesorio": "collares",
+    "piedra": "cuarzo",
+    "foto": "https://ama-uy.myshopify.com/cdn/shop/files/rn-image_picker_lib_temp_5545d07a-20b3-490d-84a3-0eaed662137e.jpg?v=1746499726&width=360"
+  },
+  {
+    "id": 7,
+    "codigo": "COL008",
+    "nombre": "Collar cuarzo verde",
+    "precio": 380,
+    "accesorio": "collares",
+    "piedra": "cuarzo",
+    "foto": "https://ama-uy.myshopify.com/cdn/shop/files/rn-image_picker_lib_temp_b951e010-ed97-4906-8f58-c26dc6d22bbb.jpg?v=1746500524&width=360"
+  },
+  {
+    "id": 8,
+    "codigo": "COL008",
+    "nombre": "Collar dije gota cuarzo blanco",
+    "precio": 480,
+    "accesorio": "collares",
+    "piedra": "cuarzo",
+    "foto": "https://ama-uy.myshopify.com/cdn/shop/files/rn-image_picker_lib_temp_1ea68c15-1704-46e9-bde5-9aa442ec3201.jpg?v=1746465827&width=360"
+  },
+  {
+    "id": 9,
+    "codigo": "COL009",
+    "nombre": "Collar dije gota cuarzo rosa",
+    "precio": 480,
+    "accesorio": "collares",
+    "piedra": "cuarzo",
+    "foto": "https://ama-uy.myshopify.com/cdn/shop/files/rn-image_picker_lib_temp_823a5bd2-ed96-46db-b488-014ab6bf9662.jpg?v=1746426170&width=360"
+  },
+  {
+    "id": 10,
+    "codigo": "COL010",
+    "nombre": "Collar turmalina negra",
+    "precio": 450,
+    "accesorio": "collares",
+    "piedra": "cuarzo",
+    "foto": "https://ama-uy.myshopify.com/cdn/shop/files/rn-image_picker_lib_temp_c5c3f858-7dc4-49a4-9fda-b143f8af3b2c.jpg?v=1746500832&width=360"
+  },
+  {
+    "id": 11,
+    "codigo": "GAR001",
+    "nombre": "Gargantilla con dije agata",
+    "precio": 390,
+    "accesorio": "gargantillas",
+    "piedra": "agata",
+    "foto": "https://ama-uy.myshopify.com/cdn/shop/files/rn-image_picker_lib_temp_1f02fcbd-30dd-45bc-92f3-e8f7211a0d36.jpg?v=1746145259&width=360"
+  },
+  {
+    "id": 12,
+    "codigo": "GAR002",
+    "nombre": "Gargantilla escallas de amatista con dije corazon",
+    "precio": 460,
+    "accesorio": "gargantillas",
+    "piedra": "amatista",
+    "foto": "https://ama-uy.myshopify.com/cdn/shop/files/rn-image_picker_lib_temp_481ff1ba-70e9-4700-a0d6-ce9c791eb6c6.jpg?v=1746145259&width=360"
+  },
+  {
+    "id": 13,
+    "codigo": "GAR003",
+    "nombre": "Gargantilla dije agata",
+    "precio": 390,
+    "accesorio": "gargantillas",
+    "piedra": "agata",
+    "foto": "https://ama-uy.myshopify.com/cdn/shop/files/rn-image_picker_lib_temp_3e8b40fc-8e6f-491b-ac1e-6332e7d431b1.jpg?v=1746145259&width=360"
+  },
+  {
+    "id": 14,
+    "codigo": "GAR004",
+    "nombre": "Gargantilla piedra luna",
+    "precio": 460,
+    "accesorio": "gargantillas",
+    "piedra": "piedra",
+    "foto": "https://ama-uy.myshopify.com/cdn/shop/files/DSC2160_1.jpg?v=1745886328&width=360"
+  },
+  {
+    "id": 15,
+    "codigo": "POR001",
+    "nombre": "Porta vela e incienso",
+    "precio": 310,
+    "accesorio": "porta vela",
+    "piedra": "",
+    "foto": "https://ama-uy.myshopify.com/cdn/shop/files/rn-image_picker_lib_temp_41dad3ce-2e1d-4ca0-9f4d-4a42f37cf50e.jpg?v=1746209550&width=360"
+  },
+  {
+    "id": 16,
+    "codigo": "POR002",
+    "nombre": "Porta incienso + vela de miel",
+    "precio": 550,
+    "accesorio": "porta vela",
+    "piedra": "",
+    "foto": "https://ama-uy.myshopify.com/cdn/shop/files/rn-image_picker_lib_temp_fc9cef0e-c1c9-4ae8-8e62-aa8345c24124.jpg?v=1746209550&width=360"
+  },
+  {
+    "id": 17,
+    "codigo": "COL003",
+    "nombre": "Selenita con 7 chakras",
+    "precio": 480,
+    "accesorio": "collares",
+    "piedra": "selenita",
+    "foto": "https://ama-uy.myshopify.com/cdn/shop/files/rn-image_picker_lib_temp_f6f186ee-33e8-41fc-aecb-3c5e1ed0c25f.jpg?v=1746145259&width=360"
+  },
+  {
+    "id": 18,
+    "codigo": "COL005",
+    "nombre": "Selenita con Lapisazul",
+    "precio": 450,
+    "accesorio": "collares",
+    "piedra": "selenita",
+    "foto": "https://ama-uy.myshopify.com/cdn/shop/files/rn-image_picker_lib_temp_554fc339-9bdd-4b05-bc34-44038062be92.jpg?v=1746145259&width=360"
+  },
+  {
+    "id": 19,
+    "codigo": "COL006",
+    "nombre": "Turmalina rosa",
+    "precio": 460,
+    "accesorio": "collares",
+    "piedra": "turmalina",
+    "foto": "https://ama-uy.myshopify.com/cdn/shop/files/rn-image_picker_lib_temp_eb01d656-e878-4fdc-9897-8e579901a8b8.jpg?v=1746145259&width=360"
+  },
+
+  {
+    "id": 20,
+    "codigo": "VEL001",
+    "nombre": "Vela pino blanco",
+    "precio": 180,
+    "accesorio": "vela",
+    "piedra": "",
+    "foto": "https://ama-uy.myshopify.com/cdn/shop/files/rn-image_picker_lib_temp_ddf9fabd-abeb-48eb-a6a4-190e6b7e2d1c.jpg?v=1746424152&width=360"
+  },
+  {
+    "id": 21,
+    "codigo": "VEL002",
+    "nombre": "Velas nudo",
+    "precio": 150,
+    "accesorio": "vela",
+    "piedra": "",
+    "foto": "https://ama-uy.myshopify.com/cdn/shop/files/rn-image_picker_lib_temp_35589a22-d37d-4644-8e61-ee67aca91c2b.jpg?v=1746424830&width=360"
+  }
+]
