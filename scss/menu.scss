@@ -1,0 +1,62 @@
+.mobile-menu {
+  position: fixed;
+  top: 0;
+  left: -100%;
+  width: 80%;
+  max-width: 300px;
+  height: 100%;
+  background-color: $white;
+  z-index: 1000;
+  transition: left 0.3s ease;
+  box-shadow: 0 0 10px #0000001a;
+  overflow-y: auto;
+  
+  &.active {
+    left: 0;
+  }
+  
+  &__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem;
+    border-bottom: 1px solid $border-color;
+  }
+  
+  &__logo {
+    font-size: 1.25rem;
+    font-weight: 700;
+  }
+  
+  &__close {
+    background: none;
+    border: none;
+    font-size: 1.25rem;
+    cursor: pointer;
+  }
+  
+  &__nav {
+    padding: 1.5rem;
+  }
+  
+  &__links {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    
+    a {
+      font-size: 1rem;
+      padding: 0.5rem 0;
+      display: block;
+      border-bottom: 1px solid $border-color;
+      
+      &:hover {
+        color: $primary-color;
+      }
+    }
+  }
+  
+  &__highlight {
+    color: $primary-color;
+  }
+}

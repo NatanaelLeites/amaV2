@@ -21,9 +21,9 @@
                 </div>
                 <nav class="header__nav">
                     <ul class="header__menu">
-                        <li><a href="../index.html" class="header__link header__link--highlight">Inicio</a></li>
-                        <li><a href="#coleccion" class="header__link">Coleccion</a></li>
-                        <li><a href="#" class="header__link">Contacto</a></li>
+                        <li><a href="../index.html" class="header__link">Inicio</a></li>
+                        <li><a href="./productos.html" class="header__link">Coleccion</a></li>
+                        <li><a href="#contacto" class="header__link">Contacto</a></li>
                         <li><a href="./ritual.html" class="header__link">Ritual</a></li>
                     </ul>
                 </nav>
@@ -45,7 +45,6 @@
             </div>
         </div>
     </header>
-
     <!-- Main Content -->
     <main>
         <!-- Ritual Section -->
@@ -160,15 +159,17 @@
                 <i class="fas fa-times"></i>
             </button>
         </div>
+        <div id="cart-items" class="cart-items">
+        </div>
         <div class="cart-sidebar__empty">
             <p>Tu carrito está vacío</p>
-            <a href="#" class="btn btn--outline">Continuar comprando</a>
+            <a href="./productos.html" class="btn btn--outline">Continuar comprando</a>
         </div>
         <!-- Cart items would be dynamically added here with JavaScript -->
         <div class="cart-sidebar__footer">
             <div class="cart-sidebar__total">
                 <span>Total:</span>
-                <span>$</span>
+                <span id="cart-subtotal">$</span>
             </div>
             <a href="#" class="btn btn--primary btn--block">Finalizar compra</a>
         </div>

@@ -1,0 +1,127 @@
+.section-header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: $white;
+  border-bottom: 1px solid $border-color;
+  
+  &__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+  }
+  
+  &__logo {
+    font-size: 1.5rem;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+    a{
+      img{
+        height: 80px;
+      }
+    }
+  }
+  
+  &__nav {
+    display: none;
+    
+    @media (min-width: 768px) {
+      display: block;
+    }
+  }
+  
+  &__menu {
+    display: flex;
+    gap: 2rem;
+  }
+  
+  &__link {
+    font-size: 0.9375rem;
+    font-weight: 500;
+    position: relative;
+    
+    &:hover {
+      color: $primary-color;
+    }
+    
+    &::after {
+      content: '';
+      position: absolute;
+      bottom: -4px;
+      left: 0;
+      width: 0;
+      height: 2px;
+      background-color: $primary-color;
+      transition: $transition;
+    }
+    
+    &:hover::after {
+      width: 100%;
+    }
+    
+    &--highlight {
+      color: $primary-color;
+    }
+  }
+  
+  &__actions {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  &__search {
+    display: none;
+    position: relative;
+    
+    @media (min-width: 992px) {
+      display: block;
+    }
+    
+    form {
+      display: flex;
+      align-items: center;
+    }
+    
+    i {
+      position: absolute;
+      left: 0.75rem;
+      top: 50%;
+      transform: translateY(-50%);
+      color: $light-text;
+      font-size: 0.875rem;
+    }
+
+  }
+  
+  &__icon-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: $text-color;
+    font-size: 1.125rem;
+    padding: 0.5rem;
+    transition: $transition;
+    
+    &:hover {
+      color: $primary-color;
+    }
+  }
+  
+  &__mobile-toggle {
+    display: block;
+    background: none;
+    border: none;
+    font-size: 1.25rem;
+    cursor: pointer;
+    
+    @media (min-width: 768px) {
+      display: none;
+    }
+  }
+}
