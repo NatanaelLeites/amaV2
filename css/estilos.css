@@ -1,3 +1,46 @@
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border: none;
+  font-size: 1rem;
+}
+.btn--primary {
+  background-color: #f9a8d4;
+  color: #fff;
+}
+.btn--primary:hover {
+  background-color: #f472b6;
+}
+.btn--outline {
+  background-color: transparent;
+  border: 1px solid #f9a8d4;
+  color: #333;
+}
+.btn--outline:hover {
+  background-color: rgba(249, 168, 212, 0.1);
+}
+.btn--small {
+  padding: 0.5rem 1rem;
+  font-size: 0.875rem;
+}
+.btn--block {
+  display: block;
+  width: 100%;
+}
+.btn i {
+  margin-left: 0.5rem;
+  transition: transform 0.2s ease;
+}
+.btn:hover i {
+  transform: translateX(3px);
+}
+
 .section-header {
   text-align: center;
   margin-bottom: 3rem;
@@ -214,64 +257,52 @@
   max-width: 500px;
 }
 
-.collections {
-  padding: 4rem 0;
+.featured-products .container {
+  display: flex;
+  flex-direction: column;
 }
-.collections__grid {
+.featured-products .container .section-header .section-title {
+  padding-top: 1rem;
+}
+.featured-products .container .product-container {
   display: grid;
-  grid-template-columns: 1fr;
-  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
 }
-@media (min-width: 768px) {
-  .collections__grid {
-    grid-template-columns: repeat(3, 1fr);
-  }
-}
-
-.collection-card {
-  border-radius: 8px;
-  overflow: hidden;
+.featured-products .container .product-container .product-card {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.0509803922);
-}
-.collection-card__image {
-  height: 300px;
+  margin: 1rem;
   overflow: hidden;
+  display: grid;
+  border-radius: 20px;
 }
-.collection-card__image img {
+.featured-products .container .product-container .product-card .product-card__image {
+  margin: 1rem 0;
+}
+.featured-products .container .product-container .product-card .product-card__image a img {
+  border-radius: 20px;
   width: 100%;
-  height: 100%;
+  height: 300px;
   object-fit: cover;
   transition: all 0.3s ease;
 }
-.collection-card__image img:hover {
+.featured-products .container .product-container .product-card .product-card__image a img:hover {
   transform: scale(1.05);
 }
-.collection-card__content {
-  padding: 1.5rem;
-}
-.collection-card__title {
+.featured-products .container .product-container .product-card .product-card__content .product-card__title {
   font-size: 1.25rem;
   font-weight: 600;
   margin-bottom: 0.5rem;
 }
-.collection-card__description {
-  color: #666;
-  margin-bottom: 1rem;
-}
-.collection-card__link {
-  color: #f9a8d4;
-  font-weight: 500;
-  display: inline-flex;
+.featured-products .container .product-container .product-card .product-card__content .product-card__footer {
+  display: flex;
+  justify-content: space-between;
   align-items: center;
 }
-.collection-card__link i {
-  margin-left: 0.5rem;
-  transition: transform 0.2s ease;
+.featured-products .container .product-container .product-card .product-card__content .product-card__footer .product-card__price {
+  font-size: 1.1rem;
+  font-weight: 600;
 }
-.collection-card__link:hover i {
-  transform: translateX(3px);
-}
-
 .footer {
   background-color: #fff;
   border-top: 1px solid #eee;
@@ -506,49 +537,6 @@ ul {
   clip: rect(0, 0, 0, 0);
   white-space: nowrap;
   border-width: 0;
-}
-
-.btn {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  padding: 0.75rem 1.5rem;
-  border-radius: 8px;
-  font-weight: 500;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  border: none;
-  font-size: 1rem;
-}
-.btn--primary {
-  background-color: #f9a8d4;
-  color: #fff;
-}
-.btn--primary:hover {
-  background-color: #f472b6;
-}
-.btn--outline {
-  background-color: transparent;
-  border: 1px solid #f9a8d4;
-  color: #333;
-}
-.btn--outline:hover {
-  background-color: rgba(249, 168, 212, 0.1);
-}
-.btn--small {
-  padding: 0.5rem 1rem;
-  font-size: 0.875rem;
-}
-.btn--block {
-  display: block;
-  width: 100%;
-}
-.btn i {
-  margin-left: 0.5rem;
-  transition: transform 0.2s ease;
-}
-.btn:hover i {
-  transform: translateX(3px);
 }
 
 .section-title {

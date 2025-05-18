@@ -37,7 +37,7 @@ fetch('../productos.json')
 
             const priceSpan = document.createElement('span');
             priceSpan.classList.add('product-card__price');
-            priceSpan.textContent = producto.precio;
+            priceSpan.textContent = `$ ${producto.precio}`;
 
             const addButton = document.createElement('button');
             addButton.classList.add('btn', 'btn--small', 'btn--primary');
