@@ -1,4 +1,4 @@
-.featured-products {
+/* .featured-products {
   .container {
     display: flex;
     flex-direction: column;
@@ -22,7 +22,7 @@
         border-radius: 20px;
         
         .product-card__image {
-          margin: 1rem 0;
+          margin: .5rem 0;
           a {
             img {
               border-radius: 20px;
@@ -39,28 +39,26 @@
         }
 
         .product-card__content {
+          padding: 0 .5rem;
           .product-card__title {
             font-size: 1.25rem;
             font-weight: 600;
             margin-bottom: .5rem;
           }
-
+          
           .product-card__footer {
+            padding: 0.5rem 1rem;
             display: flex;
-            justify-content: space-between;
+            justify-content: space-around;
             align-items: center;
             
             .product-card__price {
               font-size: 1.1rem;
               font-weight: 600;
             }
-
-            .btn {
-              
-            }
           }
         }
       }
     }
   }
-}
+} */

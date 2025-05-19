@@ -11,11 +11,82 @@
   box-shadow: 0 0 10px #0000001a;
   display: flex;
   flex-direction: column;
-  
+
+  /* mis estilos */
+  .cart-item {
+    padding: 1rem;
+
+    img {
+      height: 200px;
+      border-radius: 20px;
+    }
+
+    .cart-item__details {
+      .cart-item__title {
+        font-size: 1.25rem;
+        font-weight: 600;
+      }
+
+      .cart-item__price {
+        font-size: 1.25rem;
+        font-weight: 600;
+      }
+
+      .cart-item__quantity {
+        .cart-item__quantity-btn {
+          display: inline-flex;
+          align-items: center;
+          justify-content: center;
+          padding: 0 1.5rem;
+          border-radius: $border-radius;
+          font-weight: 500;
+          cursor: pointer;
+          transition: $transition;
+          border: none;
+          font-size: 1.5rem;
+          background-color: $primary-color;
+          color: $white;
+
+          &:hover {
+            background-color: $primary-hover;
+          }
+        }
+
+        .cart-item__quantity-count {
+          font-size: 1.25rem;
+          font-weight: 600;
+          padding: 0 .5rem;
+        }
+      }
+    }
+
+    .cart-item__remove {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: .5rem 1.5rem;
+      border-radius: $border-radius;
+      font-weight: 500;
+      cursor: pointer;
+      transition: $transition;
+      border: none;
+      font-size: 1rem;
+      background-color: $primary-color;
+      color: $white;
+      margin: 1rem 0;
+
+      &:hover {
+        background-color: $primary-hover;
+      }
+    }
+  }
+
+  /* fin mis estilos */
+
   &.active {
     right: 0;
   }
-  
+
   &__header {
     display: flex;
     align-items: center;
@@ -23,19 +94,19 @@
     padding: 1.5rem;
     border-bottom: 1px solid $border-color;
   }
-  
+
   &__title {
     font-size: 1.25rem;
     font-weight: 600;
   }
-  
+
   &__close {
     background: none;
     border: none;
     font-size: 1.25rem;
     cursor: pointer;
   }
-  
+
   &__empty {
     flex: 1;
     display: flex;
@@ -45,18 +116,18 @@
     gap: 1.5rem;
     padding: 2rem;
     text-align: center;
-    
+
     p {
       font-size: 1.125rem;
       color: $light-text;
     }
   }
-  
+
   &__footer {
     padding: 1.5rem;
     border-top: 1px solid $border-color;
   }
-  
+
   &__total {
     display: flex;
     justify-content: space-between;
